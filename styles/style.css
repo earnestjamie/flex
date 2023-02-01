@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Helevetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    font-size: 22px;
+    
+   
+}
+
+.header {
+    z-index: 1;
+
+    display: flex;
+    flex-flow: row nowrap;
+    position: fixed;
+    height: 68px;
+    /* right: 0px;
+    left: 0px; */
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 0px;
+
+}
+
+.header img {
+    height: 50px;
+}
+
+.header_a a:hover {
+    opacity: 1;
+  }
+
+.top {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/img-mission.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;   
+    top: 69px;
+    height: 700px;
+    margin: 0px 40px;
+}
+
+.top .text {
+   width: 100%;    
+}
+
+.main {
+    position: relative;
+    top: 169px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px;
+    row-gap: 20px;
+}
+
+.main_image {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 250px;
+    /* padding: 0 100px; */
+    width: 100%;
+    max-width: 1000px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main_image img {
+    width: 300px;
+    height: 200px;
+}
+
+.main_image figcaption {
+    padding: 10px;
+}
+
+.location {
+    display: flex;
+    flex-flow: column wrap;
+    height: 500px;
+    margin: 0 40px;
+    margin-top: 40px;
+    background-image: url('../img/img-locations-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;   
+    justify-content: center;
+    
+}
+
+.location h2 {
+    background-color: rgba(0, 100, 200, 0);
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.location .place {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    column-gap: 40px;
+    row-gap: 40px;
+    background-color: rgba(0, 100, 200, 0);
+    margin: 0 40px;
+}
+
+#location {
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    opacity: 1;
+    row-gap: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: column;
+    height: 200px;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
